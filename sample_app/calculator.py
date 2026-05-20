@@ -6,6 +6,10 @@ def negate(a: float) -> float:
     return -a
 
 
+def absolute(a: float) -> float:
+    return abs(a)
+
+
 def subtract(a: float, b: float) -> float:
     return a - b
 
