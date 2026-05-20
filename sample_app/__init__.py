@@ -1,3 +1,23 @@
-from .calculator import add, divide, multiply, subtract
+from .calculator import (
+    absolute,
+    add,
+    divide,
+    modulo,
+    multiply,
+    negate,
+    power,
+    square,
+    subtract,
+)
 
-__all__ = ["add", "subtract", "multiply", "divide"]
+__all__ = [
+    "absolute",
+    "add",
+    "divide",
+    "modulo",
+    "multiply",
+    "negate",
+    "power",
+    "square",
+    "subtract",
+]
