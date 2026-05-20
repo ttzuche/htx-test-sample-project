@@ -1,6 +1,6 @@
 import unittest
 
-from sample_app.calculator import absolute, add, divide, modulo, multiply, negate, power, subtract
+from sample_app.calculator import absolute, add, divide, modulo, multiply, negate, power, square, subtract
 
 
 class CalculatorTests(unittest.TestCase):
@@ -14,6 +14,10 @@ class CalculatorTests(unittest.TestCase):
     def test_absolute(self) -> None:
         self.assertEqual(absolute(-9), 9)
         self.assertEqual(absolute(5), 5)
+
+    def test_square(self) -> None:
+        self.assertEqual(square(5), 25)
+        self.assertEqual(square(-3), 9)
 
     def test_subtract(self) -> None:
         self.assertEqual(subtract(10, 4), 6)
