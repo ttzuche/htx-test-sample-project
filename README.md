@@ -2,6 +2,8 @@
 
 Small sample codebase: a Python calculator module with unit tests.
 
+Supports add, subtract, multiply, divide, and power.
+
 ## Run tests
 
 ```bash
