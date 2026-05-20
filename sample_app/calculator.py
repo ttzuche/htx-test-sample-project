@@ -2,6 +2,10 @@ def add(a: float, b: float) -> float:
     return a + b
 
 
+def negate(a: float) -> float:
+    return -a
+
+
 def subtract(a: float, b: float) -> float:
     return a - b
 
