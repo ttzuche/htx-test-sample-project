@@ -10,6 +10,10 @@ def absolute(a: float) -> float:
     return abs(a)
 
 
+def square(a: float) -> float:
+    return a * a
+
+
 def subtract(a: float, b: float) -> float:
     return a - b
 
