@@ -1,4 +1,4 @@
-from .calculator import add, divide, multiply, power, subtract
+from .calculator import add, divide, modulo, multiply, power, subtract
 
 
 def main() -> None:
@@ -8,6 +8,7 @@ def main() -> None:
     print(f"6 * 7 = {multiply(6, 7)}")
     print(f"20 / 5 = {divide(20, 5)}")
     print(f"2 ^ 3 = {power(2, 3)}")
+    print(f"17 % 5 = {modulo(17, 5)}")
 
 
 if __name__ == "__main__":
