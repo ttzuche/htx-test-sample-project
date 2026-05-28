@@ -14,10 +14,12 @@ class CalculatorTests(unittest.TestCase):
     def test_absolute(self) -> None:
         self.assertEqual(absolute(-9), 9)
         self.assertEqual(absolute(5), 5)
+        self.assertEqual(absolute(0), 0)
 
     def test_square(self) -> None:
         self.assertEqual(square(5), 25)
         self.assertEqual(square(-3), 9)
+        self.assertEqual(square(0), 0)
 
     def test_subtract(self) -> None:
         self.assertEqual(subtract(10, 4), 6)
