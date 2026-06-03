@@ -2,7 +2,7 @@
 
 Small sample codebase: a Python calculator module with unit tests.
 
-Supports add, subtract, multiply, divide, power, modulo, negate, absolute, and square.
+Supports add, subtract, multiply, divide, power, modulo, negate, absolute, square, double, and triple.
 
 ## Requirements
 
