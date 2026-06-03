@@ -1,4 +1,4 @@
-from .calculator import absolute, add, divide, modulo, multiply, negate, power, square, subtract
+from .calculator import absolute, add, divide, double, modulo, multiply, negate, power, square, subtract, triple
 
 
 def main() -> None:
@@ -12,6 +12,8 @@ def main() -> None:
     print(f"-(7) = {negate(7)}")
     print(f"|-9| = {absolute(-9)}")
     print(f"5² = {square(5)}")
+    print(f"6 x2 = {double(6)}")
+    print(f"4 x3 = {triple(4)}")
 
 
 if __name__ == "__main__":
