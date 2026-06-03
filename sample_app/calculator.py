@@ -18,6 +18,10 @@ def double(a: float) -> float:
     return a * 2
 
 
+def triple(a: float) -> float:
+    return a * 3
+
+
 def subtract(a: float, b: float) -> float:
     return a - b
 
