@@ -14,6 +14,10 @@ def square(a: float) -> float:
     return a * a
 
 
+def double(a: float) -> float:
+    return a * 2
+
+
 def subtract(a: float, b: float) -> float:
     return a - b
 
