@@ -22,6 +22,18 @@ def triple(a: float) -> float:
     return a * 3
 
 
+def half(a: float) -> float:
+    """Return half of a number.
+
+    Args:
+        a: Value to halve.
+
+    Returns:
+        The value of ``a`` divided by 2.
+    """
+    return a / 2
+
+
 def subtract(a: float, b: float) -> float:
     return a - b
 
