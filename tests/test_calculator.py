@@ -1,6 +1,19 @@
 import unittest
 
-from sample_app.calculator import absolute, add, divide, double, modulo, multiply, negate, power, square, subtract, triple
+from sample_app.calculator import (
+    absolute,
+    add,
+    divide,
+    double,
+    half,
+    modulo,
+    multiply,
+    negate,
+    power,
+    square,
+    subtract,
+    triple,
+)
 
 
 class CalculatorTests(unittest.TestCase):
@@ -26,6 +39,19 @@ class CalculatorTests(unittest.TestCase):
 
     def test_triple(self) -> None:
         self.assertEqual(triple(4), 12)
+
+    def test_half(self) -> None:
+        """Verify half returns the input divided by two.
+
+        Inputs:
+            None. Uses fixed calculator inputs inside the test.
+
+        Outputs:
+            None. Asserts expected numeric results.
+        """
+        self.assertEqual(half(10), 5)
+        self.assertEqual(half(0), 0)
+        self.assertEqual(half(-4), -2)
 
     def test_subtract(self) -> None:
         self.assertEqual(subtract(10, 4), 6)
